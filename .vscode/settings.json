@@ -1,0 +1,17 @@
+// ARQUIVO PARA CONFIGURAÇÃO GERAL PARA AJUSTAR LOCALIZAÇÃO DOS IMPORTS AO SALVAR O ARQUIVO
+{
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}
